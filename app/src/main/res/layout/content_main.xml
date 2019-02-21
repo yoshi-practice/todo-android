@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.constraintlayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.yoshi1125hisa.todoapp.MainActivity"
+    tools:showin="@layout/activity_main">
+
+<listview android:id="@+id/list_view"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          tools:layout_editor_absolutex="4dp"
+          tools:layout_editor_absolutey="8dp">
+
+</listview>
+
+</android.support.constraint.constraintlayout>
